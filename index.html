@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPS Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="gamebox">
+        <div class="player-wrapper">
+          <h3 class="player text">Player :</h3>
+        </div>
+        <div class="btn-container">
+          <button class="choice-btn">Rock</button>
+          <button class="choice-btn">Paper</button>
+          <button class="choice-btn">Scissor</button>
+        </div>
+        <div class="img-container">
+          <img class="player-image" src="images/paper.png" alt="" />
+        </div>
+        <h3 class="player-result result"></h3>
+      </div>
+      <div class="gamebox">
+        <div>
+          <h3 class="computer text">Computer :</h3>
+        </div>
+        <div class="img-container img-com-con">
+          <img class="computer-image" src="images/paper.png" alt="" />
+        </div>
+        <h3 class="computer-result result"></h3>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
